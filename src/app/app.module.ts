@@ -11,7 +11,8 @@ import { LayoutsModule } from './layouts/layouts.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingRoutes
+    AppRoutingRoutes,
+    LayoutsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

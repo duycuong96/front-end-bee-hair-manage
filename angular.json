@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "front-end-bee-hair-manager": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "front-end-bee-hair-manager"
+    }
+  },
+  "defaultProject": "front-end-bee-hair-manager",
+  "cli": {
+    "analytics": false
+  }
 }
